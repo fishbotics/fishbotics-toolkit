@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fishbotics"
+version = "0.1.0"
+description = "A collection of tools for deep learning with robotics"
+authors = ["Adam Fishman <afishman@cs.washington.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.8.0"
+urdfpy = "^0.0.22"
+lxml = "^4.6.2"
+numpy = "^1.20.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
